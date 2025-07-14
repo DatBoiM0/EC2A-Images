@@ -85,7 +85,7 @@ cat <<EOF > /var/www/html/index.html
     let lasers = [];
     let asteroidImg;
     let RICH = "https://raw.githubusercontent.com/DatBoiM0/EC2A-Images/refs/heads/main/Rich.jpg"
-    // ✅ Load the asteroid image once
+    //  Load the asteroid image once
     function preload() {
       asteroidImg = loadImage(RICH); // make sure file is in ./assets/
     }
